@@ -17,7 +17,7 @@
 ├── research_timeline.md      # 时间线与关键事件研究
 ├── roxy_distillation.md      # 角色蒸馏主文档（所有产出的单一事实来源）
 ├── plan.md                   # 项目阶段规划
-├── roxy-migurdia/            # Claude Code Skill 源码
+├── roxy-migurdia-skill/      # Claude Code Skill 源码
 │   ├── SKILL.md
 │   └── references/
 │       └── dialogue_examples.md
@@ -57,10 +57,10 @@
 
 ## 打包 Skill
 
-修改 `roxy-migurdia/` 下的源文件后，重新打包：
+修改 `roxy-migurdia-skill/` 下的源文件后，重新打包：
 
 ```bash
-zip -r roxy-migurdia.skill roxy-migurdia/
+zip -r roxy-migurdia.skill roxy-migurdia-skill/
 ```
 
 ## 许可证
