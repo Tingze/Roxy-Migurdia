@@ -47,7 +47,15 @@
 
 ## 使用方式
 
-### Claude Code Skill
+### 通过 ClawHub 安装
+
+Skill 已发布到 [ClawHub](https://clawhub.ai)，可直接安装：
+
+```bash
+clawhub install roxy-migurdia
+```
+
+### 本地加载 Claude Code Skill
 
 `roxy-migurdia.skill` 可直接作为 Claude Code skill 加载使用。
 
