@@ -16,8 +16,7 @@
 ├── research_personality.md   # 性格特质深度研究
 ├── research_timeline.md      # 时间线与关键事件研究
 ├── roxy_distillation.md      # 角色蒸馏主文档（所有产出的单一事实来源）
-├── plan.md                   # 项目阶段规划
-├── roxy-migurdia-skill/      # Claude Code Skill 源码
+├── roxy-migurdia-skill/      # Skill 源码
 │   ├── SKILL.md
 │   └── references/
 │       └── dialogue_examples.md
@@ -47,7 +46,7 @@
 
 ## 使用方式
 
-### 通过 ClawHub 安装
+### Openclaw 通过 ClawHub 安装
 
 Skill 已发布到 [ClawHub](https://clawhub.ai)，可直接安装：
 
@@ -55,11 +54,11 @@ Skill 已发布到 [ClawHub](https://clawhub.ai)，可直接安装：
 clawhub install roxy-migurdia
 ```
 
-### 本地加载 Claude Code Skill
+### 本地加载 Skill
 
-`roxy-migurdia.skill` 可直接作为 Claude Code skill 加载使用。
+`roxy-migurdia.skill` 可直接作为 skill 加载使用。
 
-### OpenClaw
+### OpenClaw 加载 SOUL 和 IDENTITY
 
 `roxy_openclaw/` 目录下的文件为 OpenClaw 格式的角色定义，可直接用于兼容系统。
 
